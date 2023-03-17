@@ -1,3 +1,49 @@
+body {
+  font-family: "Inter", sans-serif;
+}
 
-    #.attribution { font-size: 11px; text-align: center; }
-   # .attribution a { color: hsl(228, 45%, 44%); }
+.container {
+  padding: 60px 60px;
+}
+
+.main-image img {
+  width: 780px;
+  height: auto;
+}
+
+.info {
+  border: 1px solid hsl(240, 100%, 5%);
+  background-color: hsl(240, 100%, 5%);
+  height: 500px;
+  width: 350px;
+}
+h1 {
+  color: hsl(35, 77%, 62%);
+}
+h3 {
+  color: hsl(36, 100%, 99%);
+}
+h3:hover {
+  color: hsl(35, 77%, 62%);
+}
+p {
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(236, 13%, 42%);
+}
+.main {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 1;
+  margin-top: 20px;
+}
+.firstParagraph{
+    margin-top: 20px ;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 100px 50px 100px;
+  grid-template-rows: 100px 100px 100px;
+  column-gap: 5px;
+  row-gap: 15px;
+}

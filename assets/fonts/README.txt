@@ -64,3 +64,9 @@ commercial or otherwise.
 
 This isn't legal advice, please consider consulting a lawyer and see the full
 license for all details.
+
+
+    #.attribution { font-size: 11px; text-align: center; }
+   # .attribution a { color: hsl(228, 45%, 44%); }
+
+   
