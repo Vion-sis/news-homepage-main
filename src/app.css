@@ -3,11 +3,11 @@ body {
 }
 
 .container {
-  padding: 60px 60px;
+  padding: 80px 100px;
 }
 
 .main-image img {
-  width: 780px;
+  width: 830px;
   height: auto;
 }
 
@@ -15,12 +15,15 @@ body {
   border: 1px solid hsl(240, 100%, 5%);
   background-color: hsl(240, 100%, 5%);
   height: 500px;
-  width: 350px;
+  width: 300px;
+  padding: 20px;
 }
 h1 {
   color: hsl(35, 77%, 62%);
 }
 h3 {
+  font-size: 18px;
+  font-weight: 700;
   color: hsl(36, 100%, 99%);
 }
 h3:hover {
@@ -31,19 +34,66 @@ p {
   font-size: 15px;
   color: hsl(236, 13%, 42%);
 }
-.main {
-  font-weight: 800;
-  font-size: 50px;
-  line-height: 1;
+button {
+  padding: 10px 30px;
+  border: none;
+  background-color: hsl(5, 85%, 63%);
+  color: hsl(36, 100%, 99%);
   margin-top: 20px;
 }
-.firstParagraph{
-    margin-top: 20px ;
+
+button:hover {
+  background-color: hsl(240, 100%, 5%);
 }
-.footer {
+hr {
+  color: hsl(36, 100%, 99%);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.main {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1;
+  margin-top: 20px ;
+}
+.firstParagraph {
+  margin: 20px 40px 20px 0px;
+}
+.firstGridContainer {
   display: grid;
-  grid-template-columns: 100px 50px 100px;
-  grid-template-rows: 100px 100px 100px;
-  column-gap: 5px;
-  row-gap: 15px;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 20px;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.footerContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 150px;
+  margin: 60px auto;
+}
+.footerContainer img {
+  width: 80px;
+}
+.topicLine {
+  color: hsl(240, 100%, 5%);
+  font-size: 15px;
+}
+.description {
+  margin-left: 10px;
+}
+.count {
+  font-weight: 700;
+  color: hsl(236, 13%, 42%);
+  font-size: 30px;
+  opacity: 0.4;
+  line-height: 1;
+  margin-bottom: 5px ;
+}
+.decription-paragraph {
+  font-size: 12px;
 }
